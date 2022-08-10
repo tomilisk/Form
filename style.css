@@ -1,0 +1,75 @@
+*{
+    border: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: gainsboro;
+    height: 100%;
+}
+
+.container{
+    background-color: white;
+    width: 500px;
+    height: 650px;
+    margin: 30px 100px;
+    border-radius: 7px 0 0 0;
+    box-shadow: 10px 0 #bababa;
+}
+
+.image-style img{
+    width: 95%;
+    height: 250px;
+    border-radius: 7px;
+    margin: 0 12px;
+}
+
+.form-style{
+    display: block;
+    margin: 25px;
+}
+
+#label-style{
+    font-size: larger;
+    color: #8000ff;
+}
+
+#input-style {
+    border: none;
+    font-size: medium;
+    border-bottom: 2px solid #8000ff;
+    margin: 10px 0 10px;
+    width: 450px;
+}
+
+#password {
+    font-size:medium;
+    border: none;
+    border-bottom: 2px solid #e6e6e6;
+    margin: 20px 0 20px;
+    width: 450px
+}
+
+#button {
+    color: #fff;
+    background: #8000ff;
+    width: 450px;
+    height: 60px;
+    border: 1px solid #e6e6e6;
+    border-radius: 7px;
+    margin-top: 10px;
+    font-size: medium;
+}
+
+#p1 {
+    text-align: center;
+    color: #b3b3b3;
+    line-height: 5px;
+}
+
+#p2 {
+    margin-top: 10px;
+    color: #8000ff;
+    text-align: center;
+}
